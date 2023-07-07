@@ -1,0 +1,2 @@
+# drone_tello_school
+小型ドローンTelloをPythonで動かすためのコードをここにまとめる。対象は高校生以下の内容でまとめる。
