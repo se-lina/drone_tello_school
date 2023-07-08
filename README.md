@@ -1,6 +1,10 @@
 # drone_tello_school
 小型ドローンTelloをPythonで動かすためのコードをここにまとめる。  
-対象は高校生以下の内容でまとめる。
+対象は高校生向けの内容でまとめる。
+
+### スライド資料
+https://docs.google.com/presentation/d/1rVryUykVmGGIHk4wH3srW5bPtVJWOZo_5qriSW9f9Xs/edit#slide=id.p
+
 
 使用するドローンはTello
 Amazon等で13000円前後で購入でき、スマートフォンのアプリでラジコンのように動かすことが出来る。  
