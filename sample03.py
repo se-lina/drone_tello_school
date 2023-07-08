@@ -8,6 +8,9 @@ tello = Tello()
   
 # Telloに接続  
 tello.connect()  
+
+# Telloのバッテリー残量を確認  
+print(f"Tello battery: {tello.get_battery()}")  
   
 # Telloを離陸させる  
 tello.takeoff()  
