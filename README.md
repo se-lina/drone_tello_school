@@ -1,8 +1,8 @@
-# drone_tello_school
+# 概要
 小型ドローンTelloをPythonで動かすためのコードをここにまとめる。  
 対象は高校生向けの内容でまとめる。
 
-## スライド資料
+## 資料
 ### 2023/7/8の資料  
 https://docs.google.com/presentation/d/1rVryUykVmGGIHk4wH3srW5bPtVJWOZo_5qriSW9f9Xs/edit#slide=id.p
 
@@ -11,8 +11,8 @@ https://docs.google.com/presentation/d/1rVryUykVmGGIHk4wH3srW5bPtVJWOZo_5qriSW9f
 https://github.com/se-lina/drone_tello_school/blob/main/Python_basis.md
 
 #### ドローンを動かすためのプログラム
-皆さんは、この項目をみて、数字や移動に関するプログラムを書き換えしてドローンを動かしてください。
-** ※今日はここが重要！ **
+皆さんは、この項目をみて、数字や移動に関するプログラムを書き換えしてドローンを動かしてください。  
+**※今日はここが重要！**  
 https://github.com/se-lina/drone_tello_school/blob/main/how_to_move.md
 
 #### タスク（課題）表
@@ -32,12 +32,14 @@ https://github.com/se-lina/drone_tello_school/blob/main/task_5.py
 6. サッカー選手  
 https://github.com/se-lina/drone_tello_school/blob/main/task_6.py  
 
+
 ## パソコンでTelloを動かすための流れ
 1. Microsoft VS codeで動かすためのPythonを開く
 2. Telloの電源を入れる
 4. PCとTelloをWiFiでつなぐ（自分が動かすTelloの番号を要確認）
 5. VS code内の`実行ボタン`を押す
 6. プログラムが動かない。または、強制終了させたい場合は`control + C　`を押す
+
 
 ## 使用機材
 ### PC
@@ -47,6 +49,7 @@ Window, Mac, Linuxどれでも大丈夫だが、Python3が動く環境である�
 Amazon等で13000円前後で購入でき、スマートフォンのアプリでラジコンのように動かすことが出来る。  
 重さが80gのため、「航空法」の対象外になります。  
 とは言え、外で飛行させる場合は、所々確認して飛ばしましょう。  
+
 
 ## 関連資料
 ### 参照ブログ  
