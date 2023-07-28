@@ -30,7 +30,7 @@ Pythonは、Web開発、データ分析、人工知能、科学計算など、�
 ## 2. Pythonの基本構文
  
 Pythonの基本的な構文は、次のようになります。
-```
+```python
 # コメント  
 print("Hello, World!") # 出力: Hello, World!  
   
@@ -78,14 +78,14 @@ x, y, z = (1, 2, 3) # xに1、yに2、zに3が代入される
 ```
 
 ## 辞書
-```
+```python
 person = {"name": "Alice", "age": 30, "gender": "female"} # 辞書の宣言
 name = person["name"] # nameに"Alice"が代入される
 person["age"] = 31 # personに{"name": "Alice", "age": 31, "gender": "female"}が代入される
 ```
 
 ## セット
-```
+```python
 a = {1, 2, 3} # セットの宣言
 b = {3, 4, 5}
 c = a.union(b) # cに{1, 2, 3, 4, 5}が代入される
@@ -95,7 +95,7 @@ d = a.intersection(b) # dに{3}が代入される
 ## 3. 条件分岐
  
 Pythonでは、if文を使って条件分岐を行うことができます。if文は、次のような構文になります。
-```
+```python
 if 条件式:  
     条件式がTrueの場合に実行される処理  
 else:  
@@ -103,7 +103,7 @@ else:
 ```
 
 例えば、次のようなコードは、xが0以上の場合は"Positive"を、0未満の場合は"Negative"を出力します。
-```
+```python
 if x >= 0:  
     print("Positive")  
 else:  
@@ -112,33 +112,33 @@ else:
 ## 4. 繰り返し処理
  
 Pythonでは、for文やwhile文を使って繰り返し処理を行うことができます。for文は、次のような構文になります。
-```
+```python
 for 変数 in リスト:  
     リストの各要素に対する処理  
 ```
 
 例えば、次のようなコードは、リストの各要素を1つずつ出力します。
-```
+```python
 numbers = [1, 2, 3]  
 for number in numbers:  
     print(number)  
 ```
 
 while文は、次のような構文になります。
-```
+```python
 while 条件式:  
     条件式がTrueの場合に実行される処理  
 ```
 
 例えば、次のようなコードは、xが10未満の場合にxを1増やし、それ以外の場合はループを終了します。
-```
+```python
 while x < 10:  
     x += 1
 ```
 ## 5. 関数
  
 Pythonでは、def文を使って関数を定義することができます。関数は、次のような構文になります。
-```
+```python
 def 関数名(引数1, 引数2, ...):  
     処理  
     return 戻り値  
@@ -148,12 +148,12 @@ def 関数名(引数1, 引数2, ...):
  
 Pythonでは、標準ライブラリやサードパーティライブラリを使って、様々な機能を追加することができます。  
 これらのライブラリは、モジュールと呼ばれ、import文を使って読み込むことができます。
-```
+```python
 import モジュール名  
 ```
 
 例えば、次のようなコードは、ランダムな整数を生成するrandomモジュールを読み込んで、0から9までのランダムな整数を出力します。
-```
+```python
 import random  
 x = random.randint(0, 9)  
 print(x)  
@@ -162,7 +162,7 @@ print(x)
 ## 7. ファイルの入出力
  
 Pythonでは、ファイルの読み書きを行うことができます。ファイルを開くには、open関数を使います。
-```
+```python
 ファイルオブジェクト = open(ファイル名, モード)  
 ```
 
@@ -173,13 +173,13 @@ Pythonでは、ファイルの読み書きを行うことができます。フ�
 * 'a': 追記モード
 
 例えば、次のようなコードは、test.txtファイルを書き込みモードで開いて、"Hello, World!"という文字列を書き込みます。
-```
+```python
 file = open("test.txt", "w")  
 file.write("Hello, World!")  
 file.close()  
 ```
 例えば、次のようなコードは、2つの引数を受け取り、それらを足した結果を返します。
-```
+```python
 def add(x, y):  
     result = x + y  
     return result
@@ -260,7 +260,7 @@ print("カートの合計金額は", total, "円です")
    
 例外処理は、try-except文を使って実装します。tryブロックで例外が発生する可能性がある処理を記述し、exceptブロックで例外が発生した場合に実行する処理を記述します。以下は、ゼロ除算が発生した場合に例外処理を行う例です。  
    
-```  
+```python
 try:  
     x = 1 / 0  
 except ZeroDivisionError:  
@@ -271,7 +271,7 @@ except ZeroDivisionError:
    
 また、exceptブロックには例外の種類を指定することもできます。例えば、以下のように書くことで、特定の例外のみをキャッチすることができます。  
    
-```  
+```python
 try:  
     x = int("a")  
 except ValueError:  
