@@ -5,22 +5,22 @@
 ※数字の単位はcm(センチメートル）です  
 
 前に50cm進む
-```
+```python
 tello.move_forward(50)
 ```
 
 後ろに50cm進む
-```
+```python
 tello.move_back(50)
 ```
 
 左に50cm進む
-```
+```python
 tello.move_left(50)
 ```
 
 右に50cm進む
-```
+```python
 tello.move_right(50)
 ```
 
@@ -31,12 +31,12 @@ tello.move_right(50)
 Telloのカメラがある方が基点で、そのカメラの向きを何度回転させるかについて指示します。  
 
 時計回りに90°回転する
-```
+```python
 tello.rotate_clockwise(90)
 ```
 
 反時計回りに135°回転する
-```
+```python
 tello.rotate_counter_clockwise(135)
 ```
 
@@ -46,13 +46,13 @@ tello.rotate_counter_clockwise(135)
 ※フリップとは、空中で急激に方向転換し、前方から後方に回転して上下の位置を入れ替えるアクションのこと  
 
 前にフリップする
-```
+```python
 tello.flip("f")
 ```
 fはforwardを意味します
 fをlに変えると左、rに変えると右、bに変えると後ろにフリップします
 
-```
+```python
 # 例
 tello.flip("l")
 tello.flip("r")
@@ -70,7 +70,7 @@ tello.flip("b")
 * speed: 移動スピード（単位はcm/s）
 
 以下のように指定すると、TelloドローンはX軸方向に75cm、Z軸方向に50cm移動します。
-```
+```python
 tello.go_xyz_speed(75, 0, 50, 100)  
 ```
 ここで、最後の引数である100は移動スピードを表しています。
