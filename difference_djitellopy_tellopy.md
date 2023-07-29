@@ -10,3 +10,35 @@ tellopyは、Telloとの通信を行うためのライブラリであり、Tello
 また、djitellopyは、OpenCVとNumPyというライブラリを使用しているため、画像処理やデータ解析にも利用することができます。
 
 簡単にまとめると、tellopyは基本的な制御機能を提供し、djitellopyはより高度な制御機能と画像処理機能を提供しています。
+
+
+## DJI Tello ライブラリのインストール方法
+
+Telloを制御するためには、以下の手順が必要です。   
+Python 3をインストールしたパソコンにdjitellopyライブラリをインストールします。  
+以下のコマンドを使用して、pipを使用してインストールできます。 
+```
+pip install djitellopy  
+```
+
+TelloドローンをWi-Fiで接続します。  
+
+djitellopyをインポートして、Telloオブジェクトを作成します。 
+
+以下は、サンプルコードです。 
+```
+from djitellopy import Tello  
+  
+tello = Tello()  
+  
+tello.connect()  
+tello.takeoff()  
+  
+tello.move_left(50)  
+tello.rotate_counter_clockwise(90)  
+tello.move_forward(100)  
+  
+tello.land()  
+```
+これで、Telloドローンを制御するPythonプログラムを書くことができます。
+
