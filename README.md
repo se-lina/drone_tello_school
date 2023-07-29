@@ -16,7 +16,7 @@ https://github.com/se-lina/drone_tello_school/blob/main/Python_basis.md
 https://github.com/se-lina/drone_tello_school/blob/main/how_to_move.md
 
 #### タスク（課題）表
-https://github.com/se-lina/drone_tello_school/blob/main/task_0729.pdf
+https://github.com/se-lina/drone_tello_school/blob/main/taskcard_0729.pdf
 
 
 #### タスクサンプル
