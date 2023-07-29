@@ -53,6 +53,9 @@ Amazon等で13000円前後で購入でき、スマートフォンのアプリで
 
 
 ## 関連資料
+### djitellopyのインストール方法
+https://github.com/se-lina/drone_tello_school/blob/main/difference_djitellopy_tellopy.md
+
 ### 参照ブログ  
 https://se-lina.hatenablog.com/entry/2020/08/16/110723
 
