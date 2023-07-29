@@ -7,8 +7,14 @@
 https://docs.google.com/presentation/d/1rVryUykVmGGIHk4wH3srW5bPtVJWOZo_5qriSW9f9Xs/edit#slide=id.p
 
 ### 2023/7/29の資料
+#### Microsoft VS codeのインストールおよび事前準備について
+https://www.python.jp/python_vscode/windows/setup/install_vscode.html
+
 #### Python入門ガイド
 https://github.com/se-lina/drone_tello_school/blob/main/Python_basis.md
+
+#### djitellopyのインストール方法
+https://github.com/se-lina/drone_tello_school/blob/main/difference_djitellopy_tellopy.md
 
 #### ドローンを動かすためのプログラム
 皆さんは、この項目をみて、数字や移動に関するプログラムを書き換えしてドローンを動かしてください。  
