@@ -3,10 +3,10 @@
 対象は高校生向けの内容でまとめる。
 
 ## 資料
-### 2023/7/8の資料  
+### 2023年版の資料①  
 https://docs.google.com/presentation/d/1rVryUykVmGGIHk4wH3srW5bPtVJWOZo_5qriSW9f9Xs/edit#slide=id.p
 
-### 2023/7/29の資料
+### 2023年版の資料②
 #### Microsoft VS codeのインストールおよび事前準備について
 https://www.python.jp/python_vscode/windows/setup/install_vscode.html
 
